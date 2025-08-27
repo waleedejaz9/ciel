@@ -1,0 +1,10 @@
+export { default as gray_bar } from "./gray_bar.svg";
+export { default as black_bar } from "./black_bar.svg";
+export { default as contact_bg } from "./contact_bg.svg";
+export { default as services_01 } from "./services_01.svg";
+export { default as services_02 } from "./services_02.svg";
+export { default as services_03 } from "./services_03.svg";
+export { default as services_04 } from "./services_04.svg";
+export { default as services_05 } from "./services_05.svg";
+export { default as services_06 } from "./services_06.svg";
+export { default as contact_side_img } from "./contact_side_img.svg";

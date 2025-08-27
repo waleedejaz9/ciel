@@ -1,0 +1,12 @@
+export { default as mission } from "./mission.svg";
+export { default as vission } from "./vission.svg";
+export { default as values } from "./values.svg";
+export { default as home } from "./home.svg";
+export { default as logo } from "./logo.svg";
+export { default as statsLeft } from "./statsLeft.svg";
+export { default as company } from "./company.svg";
+export { default as projects } from "./projects.svg";
+export { default as team } from "./team.svg";
+export { default as clients } from "./clients.svg";
+export { default as imgCore } from "./imgCore.svg";
+export { default as commentImg } from "./commentImg.svg";

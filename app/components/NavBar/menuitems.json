@@ -1,0 +1,106 @@
+[
+    {
+      "title": "Company",
+      "link": "/",
+      "subMenuItems": [
+        {
+          "name": "About us",
+          "link": "/about"
+        },
+        {
+          "name": "Technology Stack",
+          "link": "/stacks"
+        },
+        {
+          "name": "Career",
+          "link": "/career"
+        },
+        {
+          "name": "Blogs",
+          "link": "/blogs"
+        },
+        {
+          "name": "Partners",
+          "link": "/partners"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "link": "/services",
+      "subMenuItems": [
+        {
+          "name": "Game Development",
+          "link": "/game-development"
+        },
+        {
+          "name": "Mobile Apps",
+          "link": "/mobile-apps"
+        },
+        {
+          "name": "UI/UX Design",
+          "link": "/ui-ux-design"
+        },
+        {
+          "name": "Web Development",
+          "link": "/web-development"
+        },
+        {
+          "name": "BlockChain",
+          "link": "/blockchain"
+        },
+        {
+          "name": "Metaverse",
+          "link": "/metaverse"
+        },
+        {
+          "name": "AR/VR",
+          "link": "/ar-vr"
+        },
+        {
+          "name": "Cloud",
+          "link": "/cloud"
+        },
+        {
+          "name": "DevOps",
+          "link": "/dev-ops"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "link": "#",
+      "subMenuItems": [
+        {
+          "name": "Web Development",
+          "link": "/web-development"
+        },
+        {
+          "name": "Game Development",
+          "link": "/game-development"
+        },
+        {
+          "name": "Mobile Apps",
+          "link": "/mobile-apps"
+        },
+        {
+          "name": "Metaverse",
+          "link": "/mertaverse"
+        },
+        {
+          "name": "Blockchain",
+          "link": "/blockchain"
+        },
+        {
+          "name": "UI/UX Design",
+          "link": "/ui-ux-design"
+        }
+      ]
+    },
+    {
+      "title": "How We Work",
+      "link": "/how-we-work",
+      "subMenuItems": []
+    }
+  ]
+  

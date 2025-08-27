@@ -1,0 +1,201 @@
+.overlay {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+    background: transparent;
+    -webkit-animation: spinRound 10s linear infinite;
+    animation: spinRound 10s linear infinite;
+  }
+  .overlay::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: transparent;
+    border: 8px solid #37bdbc;
+    border-top: transparent;
+    border-left: 1px solid transparent;
+    border-right: 3px solid transparent;
+    border-radius: 50%;
+  }
+  .overlay::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 2.8%;
+    bottom: 20%;
+    background: transparent;
+    border: 30px solid #37bdbc;
+    border-top: transparent;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    transform: rotate(35deg);
+  }
+  .overlay1 {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+    background: transparent;
+    -webkit-animation: spinRound 10s linear infinite;
+    animation: spinRound 10s linear infinite;
+  }
+  .overlay1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: transparent;
+    border: 8px solid #E7B468;
+    border-top: transparent;
+    border-left: 1px solid transparent;
+    border-right: 3px solid transparent;
+    border-radius: 50%;
+  }
+  .overlay1::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 2.8%;
+    bottom: 20%;
+    background: transparent;
+    border: 30px solid #E7B468;
+    border-top: transparent;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    transform: rotate(35deg);
+  }
+  .overlay2 {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+    background: transparent;
+    -webkit-animation: spinRound 10s linear infinite;
+    animation: spinRound 10s linear infinite;
+  }
+  .overlay2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: transparent;
+    border: 8px solid #7FB6E6;
+    border-top: transparent;
+    border-left: 1px solid transparent;
+    border-right: 3px solid transparent;
+    border-radius: 50%;
+  }
+  .overlay2::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 2.8%;
+    bottom: 20%;
+    background: transparent;
+    border: 30px solid #7FB6E6;
+    border-top: transparent;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    transform: rotate(35deg);
+  }
+  .overlay3 {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+    background: transparent;
+    -webkit-animation: spinRound 10s linear infinite;
+    animation: spinRound 10s linear infinite;
+  }
+  .overlay3::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: transparent;
+    border: 8px solid #EB5A45;
+    border-top: transparent;
+    border-left: 1px solid transparent;
+    border-right: 3px solid transparent;
+    border-radius: 50%;
+  }
+  .overlay3::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 2.8%;
+    bottom: 20%;
+    background: transparent;
+    border: 30px solid #EB5A45;
+    border-top: transparent;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    transform: rotate(35deg);
+  }
+
+
+  @keyframes spinRound {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+.footer{
+    text-shadow:  2px 2px 4px #FFB600;
+}
+/* typing effect */
+.story {
+  font-size: 24px;
+  font-weight: bold;
+  animation: typing 5s steps(40), blink-caret 0.75s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid;
+}
+
+/* Animation for typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Animation for blinking caret */
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+  /* Animation for fading out */
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }

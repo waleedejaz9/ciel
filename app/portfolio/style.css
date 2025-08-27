@@ -1,0 +1,32 @@
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.72) -0.03%, rgba(207, 207, 207, 0) 100%);
+    border-radius: 8px;
+    top: 90px;
+    /* background-color: red; */
+    display: none;
+
+}
+
+.hovered {
+    transition: all .3s;
+}
+
+.hovered:hover .overlay {
+    display: block;
+
+}
+
+.heading {
+    visibility: hidden;
+}
+
+.hovered:hover .heading {
+    visibility: visible;
+}
+
+.cont-height {
+    height: 1300px !important;
+}
