@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Providers } from "./provider";
-import "./globals.css";
+import "..styles/globals.css";
 // meta tag not for layout. it should be for pages/routes.
 
 export const metadata = {
