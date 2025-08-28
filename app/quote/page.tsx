@@ -130,12 +130,12 @@ const Page = () => {
               />
             </div>
             <div style={{ width: "47%" }}>
-              <DragInput
+              {/* <DragInput
                 name="attachment"
                 optional="(optional)"
                 value={value.attachment}
                 setValue={setValue}
-              />
+              /> */}
             </div>
             <div className="w-full">
               <label
